@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+//**************************************************************************************************
 //        reference_class = FirebaseDatabase.getInstance().getReference("Testing_data").child("451963786");
 //        // Read from the database (a class)
 //        reference_class.addValueEventListener(new ValueEventListener() {
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 //                // Failed to read value
 //            }
 //        });
-
+//**************************************************************************************************
 //        reference_class = FirebaseDatabase.getInstance().getReference("Testing_data").child("695556329");
 //        // Read from the database (only one variable)
 //        reference_class.addValueEventListener(new ValueEventListener() {
@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
+        
+//**************************************************************************************************
 //        reference_class = FirebaseDatabase.getInstance().getReference("Testing_data").child("friends");
 //        // Read from the database (only one variable)
 //        reference_class.addValueEventListener(new ValueEventListener() {
@@ -101,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
+
+//**************************************************************************************************
 //        reference_class = FirebaseDatabase.getInstance().getReference("Testing_data");
 //        reference_class.addValueEventListener(new ValueEventListener() {
 //            @Override
